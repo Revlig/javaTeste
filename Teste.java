@@ -5,6 +5,6 @@ class Teste {
         gilver = new Conta();
         int quantidade;
 
-        getFibonacci(quantidade = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite")));
+        gilver.getFibonacci(quantidade = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite")));
     }
 }
