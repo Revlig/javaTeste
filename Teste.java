@@ -4,7 +4,8 @@ class Teste {
         Conta gilver;
         gilver = new Conta();
         int quantidade;
-
-        gilver.getFibonacci(quantidade = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite")));
+        quantidade = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite"));
+       
+        gilver.getFibonacci(quantidade);
     }
 }
